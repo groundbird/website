@@ -1,0 +1,56 @@
+body {
+  margin: 6%;
+  background-image: url(../pictures/logo.png);
+  background-repeat: no-repeat;
+  background-position: 98% 5%;
+  background-attachment: fixed;
+}
+
+
+/* 画像キャプション  */
+div.imagebox { 
+/*   border: 1px dashed #0000cc; /\* 1.枠線 *\/ */
+/*   background-color: #eeeeff;  /\* 2.背景色 *\/ */
+  width: 400px;
+  float: right;
+  margin: 5px;
+}               
+p.image, p.caption { 
+/*   text-align: center; /\* 3.中央寄せ *\/ */
+  margin: 5px;        /* 4.余白・間隔 */
+}                     
+p.caption { 
+  font-size: small;
+}
+
+div.header {
+  position: fixed;
+  top: 20px;
+}
+
+div.footer {
+  position: fixed;
+  bottom: auto;
+}
+div.article {
+  position: relative;
+  top: 100px;
+  bottom: 20px;
+}
+
+.update {
+  font-size: small;
+  color: gray;
+}
+
+.people {
+  margin-left: 1em;
+}
+
+.detail {
+  font-size: small;
+}
+
+.center {
+  text-align: center;
+}
